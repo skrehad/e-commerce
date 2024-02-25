@@ -45,7 +45,6 @@ const MyOrder = () => {
   const totalPrice = orders.reduce((acc, order) => acc + order.pricing, 0);
 
   const handleCheckout = () => {
-    // Your checkout logic goes here
     console.log("Checkout clicked");
   };
 
