@@ -1,0 +1,9 @@
+.cardDiv{
+    background-color: rgb(255, 255, 255);
+}
+.cardDiv img{
+    height: 350px;
+}
+.cardDiv div{
+    height: 450px;
+}

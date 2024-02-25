@@ -1,0 +1,23 @@
+.footer1 div a:hover{  
+    color: #FF0336;
+}
+.footer2 div{
+   margin: auto;
+}
+.icon:hover{
+color: #FF0336;
+}
+@media screen and (max-width: 820px) {
+    .copyright{
+        text-align: center;
+    }
+    .footer1 div{
+        margin: auto;
+    }
+    .footer1 span{
+        margin: auto;
+    }
+    .footer1 div a{
+        margin: auto;
+    }
+}

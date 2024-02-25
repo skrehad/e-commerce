@@ -1,0 +1,17 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media screen and (max-width: 820px) {
+    .products{
+        margin: 20px;
+        grid-template-columns: 1fr;
+    }
+    .products div{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    /* .cardDiv{
+        margin: 20px;
+    } */
+}

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Toaster } from "react-hot-toast";
+import "./App.css";
+import Routes from "./Router/Routes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Routes></Routes>
+      <Toaster
+        toastOptions={{
+          className: "mt-12 mr-6",
+          style: {
+            border: "1px solid #713200",
+            padding: "24px",
+          },
+        }}
+        duration="4000"
+        position="top-center"
+        reverseOrder={false}
+      ></Toaster>
     </div>
   );
 }

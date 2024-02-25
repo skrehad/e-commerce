@@ -1,0 +1,19 @@
+.orderCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin: auto; */
+}
+
+@media screen and (max-width: 820px) {
+    .orderCard{
+        grid-template-columns: 1fr;
+
+    }
+    .orderCard div{
+        margin: 10px 10px;
+    }
+    .orderCardDiv img{
+        margin: auto;
+    }
+
+}
